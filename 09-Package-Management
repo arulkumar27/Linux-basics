@@ -1,0 +1,15 @@
+Ubuntu
+Update Packages:
+sudo apt update
+
+Upgrade Packages:
+sudo apt upgrade -y
+
+Install Package:
+sudo apt install nginx -y
+
+Remove Package:
+sudo apt remove nginx
+
+Verify Installation:
+nginx -v
