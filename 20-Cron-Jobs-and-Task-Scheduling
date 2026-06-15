@@ -1,0 +1,35 @@
+What is Cron?
+Cron automates repetitive tasks.
+
+Edit Cron Jobs:
+crontab -e
+
+View Cron Jobs:
+crontab -l
+
+Cron Format:
+* * * * *
+│ │ │ │ │
+│ │ │ │ └── Day of Week
+│ │ │ └──── Month
+│ │ └────── Day
+│ └──────── Hour
+└────────── Minute
+
+Examples:
+Run every minute:
+
+* * * * * /home/devops/script.sh
+
+Run daily at midnight:
+
+0 0 * * * /backup.sh
+
+Run every Sunday:
+
+0 2 * * 0 /weekly-backup.sh
+Real-Time Scenario
+
+Automated log cleanup.
+
+0 1 * * * find /var/log -type f -mtime +30 -delete
