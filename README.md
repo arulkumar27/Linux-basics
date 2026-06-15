@@ -1,7 +1,5 @@
 # Linux-basics
 
-# Linux for DevOps Engineers 🚀
-
 ## Overview
 
 Linux is the most widely used operating system in the DevOps world. Whether you are managing cloud servers, deploying applications, automating infrastructure, or troubleshooting production issues, Linux skills are essential for every DevOps Engineer.
