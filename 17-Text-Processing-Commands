@@ -1,0 +1,24 @@
+Grep:
+Search text.
+grep nginx /var/log/syslog
+
+Awk:
+Print specific columns.
+awk '{print $1}'
+
+Sed:
+Replace text.
+sed 's/dev/test/g' file.txt
+
+Sort:
+sort file.txt
+
+Unique Values:
+uniq file.txt
+
+Cut:
+cut -d ":" -f1 /etc/passwd
+
+Real-Time Scenario:
+Find failed logins.
+grep "Failed password" /var/log/auth.log
