@@ -1,0 +1,18 @@
+Connect to Server:
+ssh ubuntu@server-ip
+
+Generate SSH Key:
+ssh-keygen
+
+Copy Public Key:
+ssh-copy-id ubuntu@server-ip
+
+Secure Copy File:
+scp file.txt ubuntu@server-ip:/tmp
+
+Transfer Directory:
+scp -r project ubuntu@server-ip:/opt
+
+Real-Time Scenario:
+Connect to AWS EC2.
+ssh -i devops.pem ec2-user@public-ip
