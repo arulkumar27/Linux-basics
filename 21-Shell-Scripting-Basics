@@ -1,0 +1,59 @@
+ What is Shell Scripting?
+Shell scripting is the process of writing commands in a file and executing them automatically.
+
+Why DevOps Engineers Use Shell Scripts:
+Server Automation
+Deployment Automation
+Monitoring
+Backup Operations
+Log Analysis
+
+First Script:
+#!/bin/bash
+
+echo "Hello DevOps Engineer"
+
+Execute:
+
+chmod +x script.sh
+./script.sh
+
+Variables:
+#!/bin/bash
+
+NAME="Arul"
+
+echo "Welcome $NAME"
+
+User Input:
+#!/bin/bash
+
+read -p "Enter your Name: " NAME
+
+echo "Hello $NAME"
+
+Conditions:
+#!/bin/bash
+
+AGE=18
+
+if [ $AGE -ge 18 ]
+then
+    echo "Eligible"
+else
+    echo "Not Eligible"
+fi
+
+Loops:
+#!/bin/bash
+
+for i in {1..5}
+do
+    echo $i
+done
+
+Real-Time Example:
+Check Disk Usage
+#!/bin/bash
+
+df -h
