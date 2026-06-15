@@ -1,0 +1,21 @@
+View Variables:
+printenv
+
+Display Variable:
+echo $HOME
+
+Create Variable:
+export APP_ENV=production
+
+Verify:
+echo $APP_ENV
+
+Permanent Variables:
+Edit:
+vim ~/.bashrc
+
+Add:
+export JAVA_HOME=/usr/lib/jvm/java-17
+
+Apply:
+source ~/.bashrc
