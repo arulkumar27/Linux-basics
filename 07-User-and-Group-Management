@@ -1,0 +1,18 @@
+Create User:
+sudo useradd devops
+
+Set Password:
+sudo passwd devops
+
+Create Group:
+sudo groupadd developers
+
+Add User to Group:
+sudo usermod -aG developers devops
+
+Verify:
+id devops
+
+Real-Time Example
+Create Jenkins user:
+sudo useradd jenkins
