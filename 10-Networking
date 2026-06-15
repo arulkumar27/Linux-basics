@@ -1,0 +1,21 @@
+Check IP Address:
+ip addr
+
+Check Hostname:
+hostname
+
+DNS Lookup:
+nslookup google.com
+
+Test Connectivity:
+ping google.com
+
+Check Open Ports:
+ss -tulpn
+
+Real-Time DevOps Example
+Verify Jenkins Port:
+ss -tulpn | grep 8080
+
+Expected Output:
+LISTEN 0 128 *:8080
