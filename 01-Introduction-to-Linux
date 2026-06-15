@@ -1,0 +1,23 @@
+What is Linux?
+Linux is an open-source operating system kernel created by Linus Torvalds in 1991. It acts as an interface between hardware and software.
+
+Why Linux for DevOps?
+Most cloud servers run Linux
+Docker containers run on Linux
+Kubernetes worker nodes run Linux
+Jenkins servers commonly run Linux
+Automation tools work best on Linux
+
+Popular Linux Distributions:
+Distribution	Usage
+Ubuntu        Cloud & Development
+CentOS	      Enterprise
+Rocky         Linux	Enterprise
+Debian	      Stable Servers
+Amazon Linux	AWS Services
+
+Linux Architecture:
+Applications
+Shell
+Kernel
+Hardware
