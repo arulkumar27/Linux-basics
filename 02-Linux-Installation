@@ -1,0 +1,16 @@
+Install Ubuntu on VirtualBox:
+Steps:
+Download Ubuntu ISO
+Install VirtualBox
+Create VM
+Attach ISO
+Start Installation
+
+Verify Installation:
+uname -a
+
+Check Version:
+cat /etc/os-release
+
+Expected Output:
+Ubuntu 24.04 LTS
