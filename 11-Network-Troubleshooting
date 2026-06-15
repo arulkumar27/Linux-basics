@@ -1,0 +1,30 @@
+Purpose:
+Network issues are among the most common problems faced by DevOps engineers.
+
+Ping:
+Check connectivity to a host.
+ping google.com
+
+Traceroute:
+Find the network path.
+traceroute google.com
+
+DNS Lookup:
+nslookup google.com
+
+Dig Command:
+dig google.com
+
+Check Listening Ports:
+ss -tulpn
+Test Specific Port
+telnet google.com 443
+
+Real-Time Scenario:
+Application is inaccessible.
+Troubleshooting Steps:
+
+ping server-ip
+ss -tulpn
+systemctl status nginx
+curl localhost
