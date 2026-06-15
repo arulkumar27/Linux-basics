@@ -1,0 +1,18 @@
+View Running Processes:
+ps -ef
+
+Interactive Monitoring:
+top
+
+Kill Process:
+kill PID
+
+Force Kill:
+kill -9 PID
+
+Search Process:
+ps -ef | grep nginx
+
+Real-Time Example
+Restart hung application:
+kill -9 1234
