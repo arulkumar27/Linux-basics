@@ -1,0 +1,23 @@
+Check Disk Usage:
+df -h
+
+Check Directory Size:
+du -sh /var/log
+
+List Block Devices:
+lsblk
+
+View Partitions:
+fdisk -l
+
+Mount Filesystem:
+mount /dev/xvdf1 /data
+
+Unmount Filesystem:
+umount /data
+
+Real-Time Scenario:
+Production server disk full.
+df -h
+du -sh /*
+find / -type f -size +500M
