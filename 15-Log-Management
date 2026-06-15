@@ -1,0 +1,23 @@
+Why Logs Matter?
+Logs help identify failures and troubleshoot issues.
+
+View Logs:
+cat /var/log/syslog
+
+View Last Lines:
+tail -f /var/log/syslog
+
+Search Logs:
+grep ERROR application.log
+
+View Journal Logs:
+journalctl -u nginx
+
+Today's Logs:
+journalctl --since today
+
+Real-Time Scenario:
+Jenkins not starting.
+journalctl -xeu jenkins
+
+This is one of the most important commands for DevOps engineers.
