@@ -1,0 +1,26 @@
+Linux Directory Structure:
+
+/
+├── bin
+├── boot
+├── dev
+├── etc
+├── home
+├── opt
+├── root
+├── tmp
+├── usr
+└── var
+
+Important Directories:
+Directory	        Purpose
+/etc	            Configuration Files
+/home            	User Data
+/var	            Logs
+/tmp	            Temporary Files
+/usr	            Installed Applications
+
+Commands:
+pwd
+ls /
+cd /etc
