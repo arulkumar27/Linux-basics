@@ -1,0 +1,21 @@
+Create Tar Archive:
+tar -cvf backup.tar project/
+
+Extract Archive:
+tar -xvf backup.tar
+
+Compress Archive:
+tar -czvf backup.tar.gz project/
+
+Extract Gzip Archive:
+tar -xzvf backup.tar.gz
+
+Zip Files:
+zip backup.zip file.txt
+
+Unzip Files:
+unzip backup.zip
+
+Real-Time Scenario:
+Backup application before deployment.
+tar -czvf app-backup.tar.gz /opt/app
