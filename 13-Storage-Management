@@ -1,0 +1,27 @@
+What is LVM?
+Logical Volume Manager allows flexible disk management.
+
+Components:
+Physical Volume (PV)
+Volume Group (VG)
+Logical Volume (LV)
+
+Filesystem:
+Create Physical Volume
+pvcreate /dev/xvdf
+
+Create Volume Group:
+vgcreate devops_vg /dev/xvdf
+
+Create Logical Volume:
+lvcreate -L 5G -n app_lv devops_vg
+
+Extend Volume:
+lvextend -L +2G /dev/devops_vg/app_lv
+
+Resize Filesystem:
+resize2fs /dev/devops_vg/app_lv
+
+Real-Time Scenario:
+Application requires more storage without downtime.
+Use LVM extension instead of adding new mount points.
