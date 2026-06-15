@@ -1,0 +1,20 @@
+Permission Types:
+r = Read
+w = Write
+x = Execute
+
+View Permissions:
+ls -l
+
+Example:
+-rwxr-xr--
+
+Change Permissions:
+chmod 755 script.sh
+
+Change Ownership:
+chown ubuntu:ubuntu file.txt
+
+Real-Time Example
+Make deployment script executable:
+chmod +x deploy.sh
