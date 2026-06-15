@@ -1,0 +1,15 @@
+Create Files:
+touch devops.txt
+
+Copy Files:
+cp devops.txt backup.
+
+Move Files:
+mv backup.txt archive.txt
+
+Delete Files:
+rm archive.txt
+
+Real-Time Example
+Backup configuration:
+cp /etc/nginx/nginx.conf /backup/
