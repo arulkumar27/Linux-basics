@@ -1,0 +1,60 @@
+Functions:
+#!/bin/bash
+
+check_disk() {
+    df -h
+}
+
+check_disk
+
+Error Handling:
+#!/bin/bash
+
+mkdir project
+
+if [ $? -eq 0 ]
+then
+    echo "Success"
+else
+    echo "Failed"
+fi
+
+Reading File Line by Line:
+#!/bin/bash
+
+while read line
+do
+    echo $line
+done < users.txt
+
+Production Script Example:
+Server Health Check
+#!/bin/bash
+
+echo "Hostname:"
+hostname
+
+echo "CPU Usage:"
+top -bn1 | head -5
+
+echo "Memory Usage:"
+free -h
+
+echo "Disk Usage:"
+df -h
+
+DevOps Use Case:
+Automated Deployment Script
+#!/bin/bash
+
+git pull
+
+mvn clean package
+
+docker build -t app:v1 .
+
+docker stop app
+
+docker rm app
+
+docker run -d --name app app:v1
