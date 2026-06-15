@@ -1,0 +1,38 @@
+Why Security Matters?
+A single misconfiguration can expose the entire infrastructure.
+
+Disable Root Login:
+Edit:
+sudo vi /etc/ssh/sshd_config
+
+Change:
+PermitRootLogin no
+
+Restart SSH:
+sudo systemctl restart sshd
+
+Use SSH Keys:
+Generate Key:
+ssh-keygen
+
+Copy Key:
+ssh-copy-id user@server
+Configure Firewall
+
+Ubuntu:
+sudo ufw enable
+
+Allow SSH:
+sudo ufw allow 22
+
+Check Status:
+sudo ufw status
+Update Packages
+sudo apt update
+sudo apt upgrade 
+
+Real-Time DevOps Scenario:
+Secure Jenkins Server
+sudo ufw allow 8080
+sudo ufw allow 22
+sudo ufw deny 80
