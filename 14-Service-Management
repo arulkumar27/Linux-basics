@@ -1,0 +1,27 @@
+What is systemd?
+systemd manages Linux services.
+
+Start Service:
+systemctl start nginx
+
+Stop Service:
+systemctl stop nginx
+
+Restart Service:
+systemctl restart nginx
+
+Check Status:
+systemctl status nginx
+
+Enable Service at Boot:
+systemctl enable nginx
+
+Disable Service:
+systemctl disable nginx
+
+Real-Time Scenario:
+Verify Jenkins Service.
+systemctl status jenkins
+
+Restart if failed:
+systemctl restart jenkins
