@@ -1,0 +1,22 @@
+Navigation Commands:
+pwd
+ls
+cd
+
+File Commands:
+touch file.txt
+cat file.txt
+rm file.txt
+
+Directory Commands:
+mkdir project
+rmdir project
+
+Help Commands:
+man ls
+ls --help
+
+DevOps Usage
+Checking deployment folders:
+cd /opt/apps
+ls -lrt
