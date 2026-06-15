@@ -1,0 +1,41 @@
+CPU Monitoring:
+top
+
+Alternative:
+htop
+
+Memory Monitoring:
+free -h
+
+Disk Monitoring:
+df -h
+
+I/O Monitoring:
+iostat
+
+Install:
+sudo apt install sysstat -y
+
+Network Monitoring:
+iftop
+
+Install:
+sudo apt install iftop -y
+
+Running Processes:
+ps -ef
+
+Real-Time Scenario:
+Application Slow
+Check:
+top
+free -h
+df -h
+iostat
+
+Possible Causes:
+High CPU Usage
+Memory Exhaustion
+Disk Full
+High I/O Wait
+Network Bottleneck
