@@ -1,0 +1,67 @@
+Scenario 1: Server Not Reachable
+Check:
+ping server-ip
+
+Verify Network:
+ip addr
+
+Check Firewall:
+sudo ufw status
+
+Scenario 2: Jenkins Not Starting
+Check Service:
+systemctl status jenkins
+
+View Logs:
+journalctl -xeu jenkins
+
+Verify Port:
+ss -tulpn | grep 8080
+
+Scenario 3: Disk Full
+Check:
+df -h
+
+Largest Directories:
+du -sh /*
+
+Find Large Files:
+find / -type f -size +500M
+
+Scenario 4: High CPU Usage
+Identify Process:
+top
+
+Kill Process:
+kill -9 PID
+
+Scenario 5: Website Down
+Check Service:
+systemctl status nginx
+
+Check Port:
+ss -tulpn | grep 80
+
+Check Logs:
+tail -f /var/log/nginx/error.log
+
+DevOps Production Troubleshooting Flow
+User Reports Issue
+        ↓
+Check Service Status
+        ↓
+Check Logs
+        ↓
+Check CPU / Memory
+        ↓
+Check Network
+        ↓
+Check Disk Space
+        ↓
+Identify Root Cause
+        ↓
+Fix Issue
+        ↓
+Validate Service
+        ↓
+Close Incident
